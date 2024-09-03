@@ -1,0 +1,165 @@
+Last Lecture Agenda
+1 getParticularRecordByid
+
+public Employee getParticularRecord(int id){
+	String query="select * from employee where id=?";
+	Employee emp=null;
+	try{
+	OpenDb();
+ 	pst= con.prepareStatement(query);
+	pst.setInt(1,id);
+	rst= pst.executeQuery();
+	while(rst.next()){
+		emp=new Employee();
+		emp.setId(rst.getInt("id"));
+		...
+	}
+	
+	}catch{
+	
+	}
+	
+	return emp;
+}
+
+2 Types of Application
+	Stand alone Application
+		1 GUI Based Application/Desktop
+			e.g Calculator
+		2 CUI Based Application-(Character User Interface Based)
+		 e.g All core java Application which are running from Command prompt is a CUI Based
+		Also Called Console Application
+
+		Web Application
+		e.g www.google.com
+		java enterprise application- Bank Application,Telecom Application
+		means it support atm,smart device, It is combination of all things(Multiple services) like Bank Application
+3 Server
+	1 H/w Server- physical Machine(It has one or more S/W server run with differentiate using port)
+	2 S/W Server
+    - Web Server- IIS (Microsoft),Glassfish (sun Microsystem),Tomcat server(Apache), Jetty
+			
+    - Application Server- mysql, Angular server,Oracle server weblogic,Jboss (Red Hat),IBM WebSphere
+	- one port has one application only 
+
+4 HTTP protocol
+	protocol=>
+		set of rules 
+	- it is called stateless/connectionless  protocol
+	
+5 Http Request & HTTP Response
+		
+	Http Request => http header + http body 
+     1 http header
+			- ip address 
+			- server ip address 
+			- method name 
+			- date & time 
+			- auth token 
+			- content Type 
+				- image 
+				- file 
+				- pdf 
+				- json 
+				- video 
+				- audio
+				
+	2 	 http body  
+				data 
+					- json 
+					- text/html 
+					- xml => outdatated
+					
+Http Response => http header + http body 
+     1 http header
+			- ip address 
+			- server ip address 
+			- method name 
+			- date & time 
+			- auth token 
+			- content Type 
+				- image 
+				- file 
+				- pdf 
+				- json 
+				- video 
+				- audio
+			- status code 
+				
+				1 2xx => 200-299 => success, ok 
+				2 3xx => 300-399 => Redirection 
+				3 4xx => 400-499 => client side error 
+				4 5xx => 500-599 => server side error 
+				
+				
+	2 	 http body  
+				data 
+					- json 
+					- text/html 
+					- xml => outdatated
+		
+6 Http Methods
+	1 get => to fetch a data from backend server 
+	2 post => to send a data from frontend/client server to backend server 
+	3 put  => to update a record 
+	4 delete => to delete a particular record 
+7 Server-client establishment/ Flow 
+
+summary & Interview Questions
+1 What is Web Server?
+2 Explain Types of Web Server
+3 Explain Http Methods
+4 How Server-client Application Flow?
+
+
+
+Today's Lecture Agenda
+1 Servlet Life Cycle?
+	1 init => only once it is invoked 
+	2 service => doget => It invokes many more time => default doget method is invoked
+	3 destroy => it invoked only once 
+	
+3 How to create servlet project?
+
+
+
+
+summary & Interview Questions
+1 What is Servlet?
+2 Explain Servlet Life Cycle?
+3 How to get Data from parameter?
+4 How to create servlet project?
+5 How to send response to front end?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
