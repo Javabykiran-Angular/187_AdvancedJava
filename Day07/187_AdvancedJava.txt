@@ -1,0 +1,97 @@
+Last Lecture Agenda
+1 Send parameter from html 
+
+	login.html 
+	<form action="LoginServlet" method="post">
+		<input  name="...">
+		<input  name="...">
+		<button type="submit">
+	</form>
+	
+	LoginServlet.java
+	
+	dopost(){
+		String strusername= request.getParameter("username");
+		String strusername= request.getParameter("username");
+		User user=new User();
+		user.setUsername(strusername)
+		...
+		MainDao dao=new MainDao();
+		User u= dao.login(user);
+	}
+	
+	dao.java 
+	login(User user){
+	
+		String query="select * from User where username=? and password=?";
+		User u=null;
+		try{
+			openDb();
+			pst= con.preparesStatement(query)
+			pst.setString(1,user.getUsername());
+			...
+			rst= pst.executeQuery();
+			while(rst.next()){
+			u=new User();
+			u.setId(rst.getInt("id"));
+			...
+			}
+		}catch{}
+	
+	return u;
+	}
+	
+
+2 Database Integration
+
+summary & Interview Questions
+1 How to create servlet project?
+2 How to send response to front end?
+
+Today's Lecture Agenda
+1 Send Response of Html format
+2 Servlet collabration
+	it navigate from one servlet to another servlet/html  
+3 Request Dispatcher
+	1 Forward(request,response)
+	2 include(request,response)
+		u can add any message and navigate
+
+summary & Interview Questions
+1 Explain Servlet Collabration
+2 Explain Forward & include method
+3 Explain Request Dispatcher
+4 How to send response to front end?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

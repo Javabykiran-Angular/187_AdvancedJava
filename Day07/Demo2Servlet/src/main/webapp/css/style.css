@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+input{
+	
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+button {
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid green;
+
+}
+button:hover {
+	
+	background: green;
+	color: white;
+	
+	
+}
