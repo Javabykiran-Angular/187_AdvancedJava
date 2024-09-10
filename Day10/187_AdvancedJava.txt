@@ -1,0 +1,59 @@
+Last Lecture Agenda
+1 Servlet MVC 
+	m= Model => Data/entity/pojo
+	v = View => jsp/html 
+	c= Controller => servlet 
+2 Servlet + JSP
+3 Bootstrap 
+	- It is css freamwork
+	- It is used to make ur application is attractive
+	- It is make ur application responsive 
+	1 online integration
+		- 24*7 internet is required 
+		- CDN Link=> Content Delivery network 
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		
+	2 offline integration
+	
+
+summary & Interview Questions
+1 How we can use MVC with servlet-Jsp
+
+
+Today's Lecture Agenda
+1 Servlet + JSP continue
+2 HttpSession
+	session.setattribute(...);
+
+summary & Interview Questions
+1 How Strore the data in session?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
