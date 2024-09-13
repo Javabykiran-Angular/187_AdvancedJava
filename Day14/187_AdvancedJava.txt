@@ -1,0 +1,101 @@
+Last Lecture Agenda
+1 Hibernate functions
+	1 Insert 
+		persist(song);
+		
+		Configuration config=neww Configuration();
+		config.configure("...");
+		config.addAnnotatedClass(...);
+		
+		SessionFactrory factory= config.buildSessionFactory();
+		Session session= factory.openSession();
+		session.beginTranscation();
+		Song song=new Song(...);
+		session.persist(song);
+		session.getTranscation().commit();
+		session.close();
+		
+		
+	2 get particular data 
+		get(Song.class,1)
+		
+		
+		Configuration config=neww Configuration();
+		config.configure("...");
+		config.addAnnotatedClass(...);
+		
+		SessionFactrory factory= config.buildSessionFactory();
+		Session session= factory.openSession();
+		session.beginTranscation();
+		Song song= session.get(Song.class,1);
+		....
+
+summary & Interview Questions
+1 Which configuration we have to does for hibernate?
+2 Tell the Hibernate inbuilt functions
+
+
+
+Today's Lecture Agenda
+1 Update Functions
+
+	Steps 
+	1 configuration
+	2 factory 
+	3 session 
+	4 get => Song s
+	5 setter method => s 
+	6 merge => session.merge(s);
+	7 commit 
+	8 close 
+	
+
+2 Delete functions
+	Steps 
+	1 configuration
+	2 factory 
+	3 session 
+	4 get => Song s	 
+	5 remove => session.remove(s);
+	6 commit 
+	7 close 
+
+3 Get all Records from DB 
+4 HQl 
+	- Hibernate Query Lang.
+	
+	
+
+summary & Interview Questions
+1 How to delete particular data
+2 How to get all records?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
