@@ -1,0 +1,74 @@
+Last Lecture Agenda
+1 Update Functions
+
+	Steps 
+	1 configuration
+	2 factory 
+	3 session 
+	4 get => Song s
+	5 setter method => s 
+	6 merge => session.merge(s);
+	7 commit 
+	8 close 
+	
+
+2 Delete functions
+	Steps 
+	1 configuration
+	2 factory 
+	3 session 
+	4 get => Song s	 
+	5 remove => session.remove(s);
+	6 commit 
+	7 close 
+
+3 Get all Records from DB 
+	1 create criteriaBuilder
+	2 criteriaQuery(Song.class)
+	3 criteria.from(Song.class)
+	4 criteria.select(root);
+	5 session.createQueru(criteria);
+	6 query.getResultList();
+4 HQl 
+	- Hibernate Query Lang.
+	String hqlquery="update Song set name=:myname where id=:myid";
+	
+ 	MutationQuery mQuery= session.createMutationQuery(hqlquery,Song.class);
+	mQuery.setParameter("myname","...");
+	mQuery.setParameter("myid",...);
+	mQuery.executeUpdate();
+	
+	
+	
+
+summary & Interview Questions
+1 How to delete particular data
+2 How to get all records?
+
+
+Today's Lecture Agenda
+1 GetParticular Records
+2 getAllRecord  
+3 Delete Records
+
+Task => Login user Query 
+
+
+summary & Interview Questions
+1 Explain crud Operation in HQL 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
