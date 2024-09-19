@@ -1,0 +1,53 @@
+Last Lecture Agenda
+1 GetParticular Records
+	String hquery="from Song where id=:id";
+	Query<Song> query= session.createQuery(hquery,Song.class);
+	query.setParameter("id",2);
+	Song song= query.uniqueResult();
+	...
+	
+2 getAllRecord  
+	String hquery="from Song";
+	Query<Song> query= session.createQuery(hquery,Song.class);
+	List<Song> list= query.list();
+	
+3 Delete Records
+	String hquery="delete Song where id=:id";
+	MutationQuery mQuery= session.createMutationQuery(hquery);
+	mQuery.setParameter("id",2);
+	mQuery.executeUpdate();
+	...
+
+Task => Login user Query 
+
+summary & Interview Questions
+1 Explain crud Operation in HQL 
+
+
+Today's Lecture Agenda
+1 Hibernate Mapping 
+	1 one to one 
+	2 many to one 
+	3 one to many 
+	4 many to many 
+2 One to One Mapping
+
+summary & Interview Questions
+1 Explain one to one Mapping?
+2 Explain Many to one Mapping?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
