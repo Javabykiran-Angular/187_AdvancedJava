@@ -1,0 +1,54 @@
+Last Lecture Agenda
+1 Hibernate Mapping 
+	1 one to one 
+	2 many to one 
+	3 one to many 
+	4 many to many 
+2 One to One Mapping
+	Class Student{
+	...
+	
+		@OneToOne
+		Laptop laptop;
+	}
+	
+	main.java
+	psvm 
+		Laptop lap1=new Laptop(...)
+		
+		session.persist(lap1);
+		...
+		Student stud=new Student("...")
+		Laptop l= session.get(Laptop.class,2);
+		stud.setLaptop(l)
+		
+
+summary & Interview Questions
+1 Explain one to one Mapping?
+2 Explain Many to one Mapping?
+
+Today's Lecture Agenda
+1 Many to One 
+	
+
+
+
+summary & Interview Questions
+1 Explain Many to one Mapping?
+1 Explain one to many Mapping?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
