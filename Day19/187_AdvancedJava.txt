@@ -1,0 +1,96 @@
+Last Lecture Agenda
+1 Test1 
+
+summary & Interview Questions
+NA
+
+Today's Lecture Agenda
+1 What is Maven?
+	- Maven is Project Management tool 
+	- It is project Management Tool
+		- It is Build Tool
+		- add required jars & their dependencies in project classpath & deployment assembly
+		- compilation of the project.
+		- testing & packaing project deployment assembly.
+		- Reporting
+	- Meaning of Maven is "Accumulator of knowledge". 
+		-Maven is in yiddish language word.
+		
+	- Maven is automation & management tool developed by Apache s/w foundation. It is based on POM (project Object Model)=> config of project
+		- basic Config : java version, spring version,maven version etc...
+		- dependencies: third party jar files to be added in project.
+		- packaging info: jar or war, name, groupId/artifactId
+		- build settings.
+		- repositories: collection of jars.
+		
+	- Maven can build project into desired output such as .jar, .war etc
+	- It is mostly used for java based project.
+	- Maven is written in java.
+	
+	Java Project Structure
+	- Source code => Developer Purpose 
+	- Test code => Tester purpose 
+	- resource (assets,files,directories)
+	- dependances/Library
+	- Configuration
+	- Task Runner (build,test,Run)
+	- Reporting
+	
+2 How Maven Works 
+
+https://javabykiran.com/power-of-maven-what-is-maven/
+
+3 Create Maven Project
+4 What is Spring?
+	framework-
+  1 framework is a set of API-Application programming interface(It's predefined classes & interface) which works predefined algorithms & targetated to specific domain
+  2 to develop the application in the systematic format/Structred format with the help of framework
+  e.g in photo studio shop 
+  3 Spring is framework of framework i.e combination of framework (means it work all functionality of core java standalone application,web application,data structure as collection framework).
+  4 It has fix Flow it already predefined e.g. bus route is fix from katraj to swarget & swarget to katraj
+
+Spring Framework:
+	- Pre-requisits: OOP concepts & coding,core java,Introductory knowlegdge of Advanced Java.
+	- Spring is light-weight comprehensive framework to Simplify Java (SE+EE) Development.
+	- Light-weight -- Framework size is small + minimal num of jars (for give req.) + Minimal overheads.
+		- Comprehensive -- Provides lot of functionality in minimal code.
+		- Simplify Java Development -- Developer can focus on business logic, Spring manage testing, integration of other libs, ...
+		- Depedency Injection
+		
+- Spring Framework:
+		- 2003 -- Rod Johnson -- sourceforge.net -- Open Source project.
+		- Spring 1.x.x
+		- Spring 2.x
+		- * Spring 3.x -- Annotation based config.
+		- * Spring 4.x => 4.x.x
+		- Spring 5.x
+		- Spring 6.x
+5 Spring Features/ Advantages 
+		- Modular -- different jars for different functionalities.
+		- Flexible -- Most of frameworks follow "All or nothing" policy -- Spring is exception
+		- Test Driven Development -- Unit testing is well integrated in Spring + Support for other testing.
+		- Maintainable/Extendable -- Start with interfaces & can change impl over the time.
+		- Exceptions -- Spring convert/wraps all checked exception into unchecked one.
+		- Depedency Injection
+
+
+summary & Interview Questions
+1 What is Maven 
+2 Explain How Maven Works 
+3 What is Spring ?
+4 Why we use Spring?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
