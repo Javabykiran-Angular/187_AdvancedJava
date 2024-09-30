@@ -1,0 +1,59 @@
+Last Lecture Agenda
+1 What is IoC?
+
+- IoC container: (Inversion of control)
+		-It is used to create object of class,maintain life cycle of object,manage its state,  by spring. So it is called Loosely coupling, for this feature spring is more popular in market
+		 - Mainly it based on two concept DI(Dependency Injection) & IOC (Inversion of control)
+		 
+		- IoC -- Inversion of Control
+			 - It is an architectural pattern describing that programmer do not need to create an object, instead just describe how it should be created. No need to directly connect your components & services together in program, instead just describe which services are needed by which components in a configuration file/xml file. The spring IOC container is then responsible.
+			- IOC create a singleton object means that object create only ones instance & we can use that object through out the application whenever we need.
+			
+		- DI -- Dependency Injection
+			- The object initialization is done by spring -- adding dependencies into the object (i.e. initializing its properties).
+			- DI is way to achieving the IOC.i.e to implement IOC we reuired Dependency Injection
+			- Runtime object creation is not allowed
+			- It Create Object before runtime & it inject whenever we want it gives object.
+			
+			
+IOC Container Has 2 types
+
+ 1 BeanFactory
+	- It is Interface
+	- we can use some implementated classess using this interface
+ 2 ApplicationContext
+	- It is Interface
+	- we can use some implementated classess using this interface
+	- Application Context is nothing but spring container.In newer version of spring Application Context to developed enterprise application.
+	- class is used ClassPathXMLApplicationContext
+			
+
+
+
+
+summary & Interview Questions
+1 What is Spring ?
+2 Why we use Spring?
+3 What is IOC?
+
+
+Today's Lecture Agenda
+1 Depedency Injection	
+2 setter level Injection => it is by default injection
+3 constructor level Injection
+
+summary & Interview Questions
+1 What is Depedency Injection
+
+
+
+
+
+
+
+
+
+
+
+
+
