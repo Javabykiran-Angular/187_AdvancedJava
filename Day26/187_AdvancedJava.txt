@@ -1,0 +1,83 @@
+Last Lecture Agenda
+1 Spring AOP continue 
+
+2 Json Object 
+	=> Java script Object Notation 
+	=> It Holds a data into key & VALUE FORMAT 
+	
+	{
+		"id":"9",
+		"name":"Sumit"
+		
+	}
+	
+3 Array of Object
+	[
+		{
+			"id":"9",
+			"name":"Sumit",
+			"country":{
+				"cid":"1",
+				"cname":"India"
+			}
+		},
+		{
+			"id":"3",
+			"name":"Spruha",
+			"country":{
+				"cid":"1",
+				"cname":"India"
+			}
+		},
+		{
+			"id":"6",
+			"name":"Kiran",
+			"country":{
+				"cid":"1",
+				"cname":"India"
+			}
+		}
+	]
+
+4 Rest Vs Soap => Home Work Task
+
+5 Difference between Spring & Spring Boot => Home Work Task
+Spring 
+ 1 Spring is Freamwork
+ 2 You have to create explicitly IOC Container
+ 3 If you work with mvc or REST API then you need to configure tomcat server by yourself.
+ 
+Spring Boot
+1 It is  tool which makes the work easier to create ready to run application.
+2 IOC Container is create automatically we don't required to create explicitly.
+3 Where as in Spring Boot it is embedded tomact server in it. It is making your life easier.
+
+
+6 Download & Install Postman S/w 
+
+summary & Interview Questions
+1 Difference between Rest & Soap
+2 How to create Json Object
+3 How to create array of object
+4 Difference between Spring & Spring Boot.
+
+
+Today's Lecture Agenda
+1 Request Mapping 
+2 Postman
+3 @RestController
+4 @SpringBootApplication
+
+summary & Interview Questions
+1 Which parameter is used in request mapping
+2 What is runner main class in spring boot what annotation you use in it?
+3 What is runner main class in spring boot what annotation you use in it?
+
+
+
+
+
+
+
+
+
