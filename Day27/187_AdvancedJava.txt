@@ -1,0 +1,66 @@
+Last Lecture Agenda
+1 Request Mapping
+@RestController 
+class MainController{
+	
+	@RequestMapping(value="getAll",method=RequestMethod.Get)
+	public String getAllRecord(){
+		return "..."
+	}
+	
+	
+	@RequestMapping(value="postData",method=RequestMethod.Post)
+	public String getAllRecord(@RequestBody Employee emp){
+		
+		return "..."
+	}
+	
+	@RequestMapping(value="updateData/{id}",method=RequestMethod.put)
+	public String getAllRecord(@RequestBody Employee emp,@Pathvariable int id){
+		
+		return "..."
+	}
+	
+	@RequestMapping(value="deleteData/{id}",method=RequestMethod.delete)
+	public String getAllRecord(@Pathvariable int id){
+		
+		return "..."
+	}
+
+}
+
+	
+
+2 Postman
+3 @RestController
+4 @SpringBootApplication
+
+summary & Interview Questions
+1 Which parameter is used in request mapping
+2 What is runner main class in spring boot what annotation you use in it?
+3 What is runner main class in spring boot what annotation you use in it?
+
+
+
+Today's Lecture Agenda
+1 @GetMapping 
+2 @PostMapping
+3 @PutMapping
+4 @DeleteMapping
+5 Request Param => query selector/parameter => url rewriting 
+	- Its data is in encoded format 
+
+
+
+summary & Interview Questions
+1 Explain the Steps to store data into database
+2 Where to set database configuration in spring boot 
+3 How to do curd operations in spring boot 
+
+
+
+
+
+
+
+
