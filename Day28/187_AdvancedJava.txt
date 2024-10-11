@@ -1,0 +1,30 @@
+Last Lecture Agenda
+1 @GetMapping 
+2 @PostMapping
+3 @PutMapping
+4 @DeleteMapping
+5 Request Param => query selector/parameter => url rewriting 
+	- Its data is in encoded format
+
+summary & Interview Questions
+1 Explain the Steps to store data into database
+2 Where to set database configuration in spring boot 
+3 How to do curd operations in spring boot 
+
+
+
+Today's Lecture Agenda
+1 Database Intergration 
+
+summary & Interview Questions
+1 Explain the Steps to store data into database
+2 Where to set database configuration in spring boot 
+3 How to do curd operations in spring boot 
+
+
+
+
+
+
+
+
