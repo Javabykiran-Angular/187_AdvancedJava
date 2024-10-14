@@ -1,0 +1,18 @@
+Last Lecture Agenda
+1 Database Intergration 
+
+summary & Interview Questions
+1 Explain the Steps to store data into database
+2 Where to set database configuration in spring boot 
+3 How to do curd operations in spring boot 
+
+
+Today's Lecture Agenda
+1 GetMapping => Get All Record 
+2 Delete mapping
+3 getparticular Record by id 
+4 getparticular Record by mobileno
+5 Login Api 
+
+summary & Interview Questions
+1 How to do the curd operation 
