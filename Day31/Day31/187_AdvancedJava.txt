@@ -1,0 +1,43 @@
+Last Lecture Agenda
+1 Spring Project as per Industry
+2 organization Workflow
+	- we have to create 2 entity class 
+	- 1 Employee
+			1 id => Long 
+			2 name => String
+			3 mobileno => String
+			4 emailid => String 
+			5 department => String 
+			6 salary => double
+			7 status => Active/Inactive/Suspend => String 
+			8 createdDate => date 
+			9 createdBy => String 
+			10 updatedDate => Date 
+			11 UpdatedBy => String 
+			12 Country => Object => Mapping=>  many To One 
+			
+ 	  2 Country
+			- cid => int 
+			- cname => String 
+		For Country class => API 
+		1 addCountry
+		2 UpdateContry
+		3 deleteCountry
+		4 AllCountryRecord
+		5 getParticular record 
+		
+
+
+
+summary & Interview Questions
+1 Which standard we have to follow while industry coding?
+2 How to Explain Project?
+
+
+Today's Lecture Agenda
+1 Employee => entity
+2 Use Lombok Lib 
+
+summary & Interview Questions
+1 Which standard we have to follow while industry coding?
+2 What is Use of Lombok?

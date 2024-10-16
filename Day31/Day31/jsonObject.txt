@@ -1,0 +1,17 @@
+{
+
+    "name":"Kiran",
+    "mobileno":"9960556397",
+    "emailid":"kiran@thekiranacademy.com",
+    "salary":"50000",
+    "department":"DevOps",
+    "status":"suspend",
+    "createdBy":"admin",
+    "ceratedDate":"2024-08-20T18:30:00.000+00:00",
+    "updatedBy":"admin",
+    "updatedDate":"2024-08-20T18:30:00.000+00:00",
+    "country":{
+        "cid":"4",
+        "cname":"Japan"
+    }
+}
