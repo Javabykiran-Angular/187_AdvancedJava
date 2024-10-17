@@ -1,0 +1,80 @@
+Last Lecture Agenda
+1 Employee => entity
+2 Use Lombok Lib 
+
+summary & Interview Questions
+1 Which standard we have to follow while industry coding?
+2 What is Use of Lombok?
+
+Today's Lecture Agenda
+1 Login API 
+	
+	input => 
+			1 Username/emailid
+			2 pwd/mobileno
+			Input is in json format 
+	Steps 
+	1 @PostMapping 
+	2 service 
+	3 Dao connection
+	4 hql query 
+	5 Response 
+		 case 1 - User is Valid 
+			{
+				"msg":"Valid User",
+				"user":{
+				....
+				}
+			}
+		case 2 - User is InValid 
+			{
+				"msg":"Invalid User",
+				"user":null
+			}
+	
+
+2 Get all employee whose salary range is 1000 to 5000 
+	steps
+	1 @getMapping
+	2 Return type List 
+	3 input @PathVariable
+	4 service
+	4 dao 
+	5 hql query
+	6 use between clause 
+
+3 get all employee whose status is either active/inactive/suspend	
+	
+4 Update only status of particular employee 
+ case 1 if employee status is active change to inactive 
+ case 2 if employee status is inactive change to active
+ case 3 if employee status is suspend do not change its status 
+ I want response in message format 
+	for case 1 & 2 => status change successfully
+	for case 3 => suspended employee does not change status 
+	
+	Steps 
+	1 @GetMapping
+	2 send id => pathvariable
+	3 service
+	4 dao 
+	5 fetch data from id 
+	6 Apply if condition 
+	7 merge method 
+	
+	Another way 
+	
+	Steps 
+	1 @GetMapping
+	2 send status => pathvariable
+	3 service
+	4 dao 
+	5 fetch data from id 
+	6 Apply if condition 
+	7 merge method 
+	
+
+ 
+
+summary & Interview Questions
+NA 
