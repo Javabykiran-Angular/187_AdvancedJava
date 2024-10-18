@@ -1,0 +1,113 @@
+Last Lecture Agenda
+1 Login API 
+	
+	input => 
+			1 Username/emailid
+			2 pwd/mobileno
+			Input is in json format 
+	Steps 
+	1 @PostMapping 
+	2 service 
+	3 Dao connection
+	4 hql query 
+	5 Response 
+		 case 1 - User is Valid 
+			{
+				"msg":"Valid User",
+				"user":{
+				....
+				}
+			}
+		case 2 - User is InValid 
+			{
+				"msg":"Invalid User",
+				"user":null
+			}
+	
+
+2 Get all employee whose salary range is 1000 to 5000 
+	steps
+	1 @getMapping
+	2 Return type List 
+	3 input @PathVariable
+	4 service
+	4 dao 
+	5 hql query
+	6 use between clause 
+
+3 get all employee whose status is either active/inactive/suspend	
+	
+4 Update only status of particular employee 
+ case 1 if employee status is active change to inactive 
+ case 2 if employee status is inactive change to active
+ case 3 if employee status is suspend do not change its status 
+ I want response in message format 
+	for case 1 & 2 => status change successfully
+	for case 3 => suspended employee does not change status 
+	
+	Steps 
+	1 @GetMapping
+	2 send id => pathvariable
+	3 service
+	4 dao 
+	5 fetch data from id 
+	6 Apply if condition 
+	7 merge method 
+	
+	Another way 
+	
+	Steps 
+	1 @GetMapping
+	2 send status => pathvariable
+	3 service
+	4 dao 
+	5 fetch data from id 
+	6 Apply if condition 
+	7 merge method 
+	
+
+ 
+
+summary & Interview Questions
+NA 
+
+Today's Lecture Agenda
+1 Spring MVC
+	- m => Model=> data => entity class  , V= > View/Template , C=> controller
+2 What is MVC
+- MVC -- Design pattern -- Common in enterprise web apps.
+	- MVC using JSP, Java Beans & Servlet Controller:
+		+ M - Model: -- Java Bean.
+			- POJOs + Data Handling
+			- POJO class (user defined)
+			- Data carrier -- Typically doesn't have BL or DB connectivity.
+		+ V - View: -- Web page (html, jsp, ...) (user defined)
+			- Data Represenation
+		+ C - Controller: -- Servlet.
+			- Navigation, Coupling betn Models & Views.
+			- It has two types: Front Controller & Controller(s)
+			1 Front Controller: (spring mvc framework)
+				- org.springframework.web.servlet.DispatcherServlet
+				- create spring application context (WebApplicationContext).
+					
+					- maps the incoming req to corresponding req handling method.
+					- getting req data from incoming req & injecting it into req handling method (as arg) -- as primitive types or model object.
+					- provide validation facilties.
+					- navigating to the next web component (view or another req handler method).
+					- transferring data from req handler method to the view.
+					- making state management/security/localization objects available into req handler.
+			2 Controller(s): (user defined) 
+				- implementation of req handler methods.
+	- WebApplicationContext:
+		- Each spring web appln needs at least one WebApplicationContext.
+		- In simple spring mvc web application, the dispatcher servlet is responsible for creating spring webapplicationcontext. This context is responsible for MVC as well as DI.
+		
+3 How to implement MVC 
+	- 2.7.16 => version 
+	- Spring intializer 
+	
+
+summary & Interview Questions
+1 What is MVC
+2 How to implement MVC 
+3 What is Spring MVC
